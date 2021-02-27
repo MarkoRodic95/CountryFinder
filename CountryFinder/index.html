@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountryFinder</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-group">
+        <label for="country">
+          <strong> Which country do you want me to find for you? </strong>
+        </label>
+
+        <input
+          type="text"
+          class="form-control"
+          id="country"
+          placeholder="Tell me here!"
+        />
+      </div>
+      <button type="button" class="btn btn-info">Find!</button>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="th-sm" id="name">Name</th>
+            <th class="th-sm" id="capital">Capital</th>
+            <th class="th-sm" id="continent">Continent</th>
+            <th class="th-sm" id="population">Population</th>
+            <th class="th-sm" id="language">Language</th>
+            <th class="th-sm" id="currency">Currency</th>
+            <th>Flag</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

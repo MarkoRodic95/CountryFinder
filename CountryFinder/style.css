@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.country_img {
+  width: 5rem;
+  height: 3rem;
+  object-fit: cover;
+}
